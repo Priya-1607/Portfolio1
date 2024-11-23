@@ -1,0 +1,168 @@
+.mainHeading{
+    
+    margin-top: -12rem; 
+}
+.heading{
+    /* margin-left: -53rem; */
+   
+    
+}
+.para{
+    color: white;
+    /* margin-left: 3.5rem; */
+    margin-top:12px;
+}
+.lastpara{
+    color: white;
+    /* margin-left: 4.5rem; */
+    /* margin-top:15px; */
+}
+.btn{
+  
+   gap: 3rem;
+   display: flex;
+}
+.btnsec{
+    /* margin-left: 10px;
+    margin-top:15px; */
+}
+.secHeading{
+    /* margin-top:12px; */
+}
+
+
+
+.mainHeadingnew {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.par1{
+    padding-left: 2rem;
+    position: relative;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.pra2{
+    padding-top: -3.5rem;
+}
+.jkl{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.jklo{
+    margin-top: 2rem;
+}
+
+.secHeading{
+    font-size: 5rem;
+}
+.back{
+    background-image: '';
+}
+@media only screen and (max-width: 600px) {
+    .btn{
+  
+       padding-right: 1rem;
+     }
+     .area{
+        height: 150vh;
+        width: 60vh;
+     }
+     .jklo{
+        margin-left: 3rem !important;
+     }
+     .jkl{
+        margin-left: 4rem !important;
+     }
+     .back{
+        margin-top: 5rem;
+     }
+     .context h1 {
+font-size: 25px;
+     }
+
+.navigation-bar {
+    top:60%
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .jkl{
+        margin-left: 3rem !important;
+     }
+     .jklo{
+        margin-left: 3rem !important;
+     }
+     .back{
+        margin-top: 5rem;
+     }
+     .navigation-bar {
+        top:60%
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .btn{
+  
+        padding-right:4rem;
+      }
+      .navigation-bar {
+        margin-left: -4rem;
+      }
+      .par1{
+        font-size: 1.6rem;
+      }
+    
+      .area{
+        height: 110vh;
+     }
+     .jkl{
+        margin-left: 3rem !important;
+     }
+     .jklo{
+        margin-left: 3rem !important;
+     }
+     .back{
+        margin-top: 5rem;
+     }
+     .navigation-bar {
+        top:60%
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .jkl{
+        margin-left: 3rem !important;
+     }
+     .jklo{
+        margin-left: 3rem !important;
+     }
+     .back{
+        margin-top: 5rem;
+     }
+     .navigation-bar {
+        top:60%
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .jkl{
+        margin-left: 3rem !important;
+     }
+     .jklo{
+        margin-left: 3rem !important;
+     }
+     .back{
+        margin-top: 5rem;
+     }
+     .navigation-bar {
+        top:60%
+    }
+}
+}

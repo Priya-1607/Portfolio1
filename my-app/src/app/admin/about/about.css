@@ -1,0 +1,7 @@
+.bakground{
+    /* background-image:url('../../../../public/image/AdobeStock_738614250_Preview.jpeg'); */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; 
+}

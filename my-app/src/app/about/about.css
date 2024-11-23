@@ -1,0 +1,55 @@
+.mainHeading{
+    text-align: center;
+}
+.firstDiv{
+    width: 50%;
+    padding: 5rem;
+}
+.mainDiv{
+    display: flex;
+}
+
+.secondDiv{
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 1rem;
+
+}
+.top-head{
+    padding-top: 3rem;
+}
+.home{
+     background-image:url('../../../public/image/8354.jpg');
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; 
+    height: 100vh;  
+    width: 100vw;
+}
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Example content style */
+  .content {
+    padding: 20px;
+  
+    text-align: center;
+  }
+  .kk{
+    padding-bottom: 5rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home{
+       
+       height: 130vh;  
+       width: 130vw;
+   }
+   .gg{
+    font-size: 1rem;
+   }
+    
+  }
